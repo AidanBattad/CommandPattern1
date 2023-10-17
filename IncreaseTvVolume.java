@@ -16,7 +16,7 @@ class IncreaseTvVolume implements Command
             receiver.increaseVolume();
         } else 
         {
-            System.out.println("TV receiver not set. Cannot increase volume.");
+            System.out.println("TV is off. Cannot increase volume.");
         }
     }
 }
